@@ -1,0 +1,27 @@
+.catalog {
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+  @media (max-width: 400px) {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  h2 {
+    margin-bottom: 48px;
+    text-align: center;
+  }
+
+  &Container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+.catalogError {
+  height: 60vh;
+  display: grid;
+  place-content: center;
+  h2 {
+    text-align: center;
+  }
+}

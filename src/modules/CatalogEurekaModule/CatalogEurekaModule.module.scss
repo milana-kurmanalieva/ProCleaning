@@ -1,0 +1,42 @@
+.catalogEurekaModule {
+  padding: 48px 0;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 48px;
+    font-size: 32px;
+  }
+
+  .subCategories {
+    display: flex;
+    gap: 2.4%;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+}
+
+@media (max-width: 1000px) {
+  .catalogEurekaModule {
+    .subCategories {
+      gap: 32px;
+      justify-content: center;
+    }
+  }
+}
+@media (max-width: 970px) {
+  .catalogEurekaModule {
+    .subCategories {
+      gap: 32px;
+      justify-content: start;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .catalogEurekaModule {
+    .subCategories {
+      flex-wrap: nowrap !important;
+      flex-direction: column;
+    }
+  }
+}

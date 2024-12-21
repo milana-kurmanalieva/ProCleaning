@@ -1,0 +1,8 @@
+@import './nullstyles.scss';
+@import './variables.scss';
+
+body {
+  font-family: 'GeistSans','GeistSans Fallback', Arial, sans-serif;
+  background-color: var(--bgc-light);
+  font-size-adjust: 0.58;
+}

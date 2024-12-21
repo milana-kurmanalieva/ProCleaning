@@ -1,0 +1,40 @@
+.mainBlock {
+    background-color: var(--bgc-black);
+    color: var(--white);
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    &Container {
+        h1 {
+            font-size: 32px;
+            margin-bottom: 16px;
+            font-weight: 700 !important;
+        }
+        p {
+            margin-bottom: 24px;
+            font-size: 18.5px;
+            line-height: 28px;
+        }
+        h3 {
+            color: var(--bgc-black);
+            background-color: var(--light);
+            font-size: 12px;
+            padding: 13px 15px;
+            display: inline-block;
+            font-weight: normal;
+            border-radius: 7px;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .mainBlock {
+        h1 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+}

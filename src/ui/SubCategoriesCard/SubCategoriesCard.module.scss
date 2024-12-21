@@ -1,0 +1,77 @@
+.subCategoriesCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--light);
+  border-radius: 10px;
+  max-width: 434px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+
+  .info {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+
+    h3 {
+      font-size: 22px;
+      margin-bottom: 8px;
+      word-wrap: break-word;
+    }
+    p {
+      font-size: 15px;
+      margin-bottom: 16px;
+      color: var(--text-grey);
+      word-wrap: break-word;
+    }
+
+    a {
+      border: 1px solid var(--text-light);
+      padding: 10px 16px;
+      border-radius: 10px;
+      text-align: center;
+      margin-top: auto;
+
+      h4 {
+        font-size: 13px;
+        color: var(--text-grey);
+      }
+    }
+  }
+
+  .image {
+    width: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .subCategoriesCard {
+    max-width: 80%;
+  }
+}
+@media (max-width: 970px) {
+  .subCategoriesCard {
+    max-width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .subCategoriesCard {
+    height: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .subCategoriesCard {
+    h3 {
+      text-align: center;
+    }
+  }
+}

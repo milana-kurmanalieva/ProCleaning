@@ -1,0 +1,31 @@
+.ourCategories {
+    background-color: var(--bgc-light);
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+    &Container {
+        h2 {
+            margin-bottom: 48px;
+            font-size: 32px;
+            text-align: center;
+        }
+    }
+    .categories {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .ourCategories {
+        h2 {
+            font-size: 28px;
+        }
+
+        .categories {
+            flex-direction: column;
+        }
+    }
+}

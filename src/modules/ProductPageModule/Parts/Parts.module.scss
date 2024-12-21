@@ -1,0 +1,46 @@
+.parts {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    font-size: 19px;
+    margin-bottom: 16px;
+  }
+  .listParts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    row-gap: 20px;
+  }
+  .listPart {
+    background-color: #f9fafb;
+    padding: 10px;
+    border-radius: 8px;
+    min-width: 420px;
+    h4 {
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+      text-transform: capitalize;
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .listPart {
+    width: 450px;
+  }
+  .listParts {
+    gap: 20px;
+  }
+}
+@media (max-width: 1030px) {
+  .listPart {
+    width: 100%;
+    min-width: 100% !important;
+  }
+  .listParts {
+    gap: 10px;
+  }
+}

@@ -1,0 +1,45 @@
+.loaderPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dots {
+  width: 13.4px;
+  height: 13.4px;
+  border-radius: 50%;
+  clip-path: inset(-28px -112px);
+  color: #000000;
+  box-shadow: 21.3px -44.8px, 42.6px -44.8px, 63.8px -44.8px;
+  transform: translateX(-42.6px);
+  animation: dots-y3c9ksmd 1s infinite;
+}
+
+@keyframes dots-y3c9ksmd {
+  16.67% {
+    box-shadow: 21.3px 0px, 42.6px -44.8px, 63.8px -44.8px;
+  }
+
+  33.33% {
+    box-shadow: 21.3px 0px, 42.6px 0px, 63.8px -44.8px;
+  }
+
+  45%,
+  55% {
+    box-shadow: 21.3px 0px, 42.6px 0px, 63.8px 0px;
+  }
+
+  66.67% {
+    box-shadow: 21.3px 44.8px, 42.6px 0px, 63.8px 0px;
+  }
+
+  83.33% {
+    box-shadow: 21.3px 44.8px, 42.6px 44.8px, 63.8px 0px;
+  }
+
+  100% {
+    box-shadow: 21.3px 44.8px, 42.6px 44.8px, 63.8px 44.8px;
+  }
+}
