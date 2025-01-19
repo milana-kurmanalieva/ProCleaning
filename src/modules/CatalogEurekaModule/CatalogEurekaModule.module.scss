@@ -9,9 +9,10 @@
 
   .subCategories {
     display: flex;
-    gap: 2.4%;
+    gap: 2.2%;
     flex-wrap: wrap;
     align-items: stretch;
+    row-gap: 15px;
   }
 }
 
